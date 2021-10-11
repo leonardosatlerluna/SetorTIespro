@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*
+cores na paleta
+#c5ebd6
+#83elad
+#3ddc84
+#2fa866
+#la5c37
+#063dle*/
+@import url('https://fonts.googleapis.com/css2? family = Bebas + Neue & display = swap');
+@font-face {
+    font-family: 'Android';
+    src: url(/fontes/idroid.otf)
+}
+
+
+:root {
+    --cor0: #ADFFFF;
+    --cor1: #0095FF;
+    --cor2: #0300F5;
+    --cor3: #4100FF;
+    --cor4: #5F00DB;
+    --cor5: #ffffff;
+    --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue', cursiva;
+    --fonte-android: 'Android', cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor3);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0);
+    min-height: 0px;
+    text-align: center;
+    padding-top: 0px
+
+}
+
+.iconHome {
+    width: 15px;
+    height: 15px;
+
+}
+.iconNoticia{
+    width: 15px;
+    height: 15px;
+}
+.megaFone {
+    width: 15px;
+    height: 15px;
+}
+.iconFone {
+    padding-right: 10px;
+    padding-left: 950px;
+    width: 15px;
+    height: 15px;
+}
+header > ul > nav > span > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+}
+nav > a {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > h1 {
+    font-family:var(--fonte-android) ;
+    color: var(--cor5);
+}
+.pinho {
+    padding-right: 0px;
+    padding-left: 850px;
+    margin-top: -100px;
+    width: 100px;
+    height: 100px;
+}
+.textPinho {
+    margin-right: 205px;
+    margin-left: 1px;
+}
+
+
+
