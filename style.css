@@ -57,8 +57,6 @@ header {
     height: 15px;
 }
 .iconFone {
-    padding-right: 10px;
-    padding-left: 950px;
     width: 15px;
     height: 15px;
 }
@@ -97,8 +95,8 @@ nav > a:hover {
 }
 
 main {
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 200px;
+    max-width: 1200px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -113,15 +111,8 @@ main > h1 {
     color: var(--cor5);
 }
 .pinho {
-    padding-right: 0px;
-    padding-left: 850px;
-    margin-top: -100px;
     width: 100px;
     height: 100px;
-}
-.textPinho {
-    margin-right: 205px;
-    margin-left: 1px;
 }
 
 
